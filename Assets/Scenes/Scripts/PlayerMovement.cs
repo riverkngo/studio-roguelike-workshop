@@ -32,6 +32,6 @@ public class PlayerMovement : MonoBehaviour
     /// after we hit a wall
     /// </summary>
     void FixedUpdate(){
-        rb.velocity = lastMovementDir * speed;
+        rb.linearVelocity = lastMovementDir * speed;
     }
 }
